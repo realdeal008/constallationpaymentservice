@@ -1,0 +1,6 @@
+- [x] Add id="home" to Hero section
+- [x] Add id="about" to About section
+- [x] Add id="services" to Service section
+- [x] Add id="careers" to Career section
+- [x] Add id="contact" to Contact section
+- [x] Update Navbar links to use anchor links (#home, #about, etc.)
