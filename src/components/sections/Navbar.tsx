@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import {
-  StarIcon,
   HomeIcon,
   InformationCircleIcon,
   CogIcon,
@@ -41,12 +41,12 @@ const Nav = () => {
           className="flex items-center gap-3 cursor-pointer"
         >
           <Link href="/" className="flex items-center gap-3">
-            <motion.div
+              <motion.div
               whileHover={{ boxShadow: "0 0 20px rgba(99, 102, 241, 0.5)" }}
               className="w-12 h-12 rounded-full bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center text-white font-bold shadow-lg relative"
             >
-              <StarIcon className="w-6 h-6 absolute inset-0 m-auto opacity-30" />
-              CP
+              <Image src="/constellation.jpg" alt="Constellation Payment Logo" width={48} height={48} className="rounded-full" />
+              
             </motion.div>
 
             <div>
